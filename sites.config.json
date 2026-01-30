@@ -1,0 +1,12 @@
+[
+	{
+		"name": "site-1",
+		"baseUrlEnv": "SITE_1_URL",
+		"pages": ["/", "/business/", "/csr/"]
+	},
+	{
+		"name": "site-2",
+		"baseUrlEnv": "SITE_2_URL",
+		"pages": ["/", "/staff/", "/menu/", "/news/"]
+	}
+]
