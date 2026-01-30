@@ -1,14 +1,15 @@
+import 'dotenv/config';
 import { test, expect } from '@playwright/test';
 
 const sites = [
   {
-    name: 'siteA',
-    baseUrl: 'https://example-a.com',
+    name: 'site1',
+    baseUrl: process.env.SITE_1_URL!,
     pages: ['/', '/about/', '/contact/'],
   },
   {
-    name: 'siteB',
-    baseUrl: 'https://example-b.com',
+    name: 'site2',
+    baseUrl: process.env.SITE_2_URL!,
     pages: ['/', '/service/'],
   },
 ];
